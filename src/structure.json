@@ -1,0 +1,13 @@
+{
+    "start": "^(?i)inicio\\s*$",
+    "end": "^(?i)pare\\s*$",
+    "for": "^(?i)para.*",
+    "endfor": "^(?i)fpara.*",
+    "if": "^(?i)si.*",
+    "else": "^(?i)sino.*",
+    "endif": "^(?i)fsi.*",
+    "read": "^(?i)lea.*",
+    "write": "^(?i)esc.*",
+    "assignment": "^(?i)\\s*[a-zA-Z_][a-zA-Z0-9_]*\\s*=.*",
+    "other": "^(?i).*"
+}
